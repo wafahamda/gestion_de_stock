@@ -70,7 +70,7 @@ body {
             <table width="547" height="297"  border="0" background="#000000">
              <tr> 
                 <td width="570">
-<center>
+</center>
                     <table width="69%" height="166" border="0">
                       <tr> 
                         <td height="47"><span class="Style3"><font color="#000000">Login :</font></span></td>
