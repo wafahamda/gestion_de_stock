@@ -12,6 +12,8 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "gestion_stock";
+$id  = $_POST["id"] ;
+ $nom = $_POST["nom"] ;
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -22,7 +24,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
  
 
   $sql = "INSERT  INTO categorie (id,  nom)
-            VALUES ( '1', 'wafa' ) " ;
+            VALUES ( '$id', '$nom') " ;
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
 } else {
